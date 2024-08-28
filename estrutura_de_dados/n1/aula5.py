@@ -1,38 +1,46 @@
-carros_desbloqueados = ['Supra', 'Corvette', 'Fusca', 'Focus']
+# 22/08/24
+# Arthur Meneses
+# Listas em Python
 
+carros_desbloqueados = ['Supra', 'Corvette', 'Fusca', 'Focus']
 carros_bloqueados = ['Fiorino', 'Gol', 'Uno de Escada', 'Charger']
 
+# Lista os tipos das listas
+print(type(carros_desbloqueados))
+print(type(carros_bloqueados))
+print('')
 
-# Lista todos os elementos
-print(type(carros_desbloqueados)[0])
-print(type(carros_bloqueados)[1])
-
-# lista por índice
+# Lista por índice
 print(carros_bloqueados[0:3])
+print('')
 
 # Lista por intervalo
-print(carros_bloqueados[0])
+print(carros_bloqueados[0]) # Escolhe posição da array
+print('')
 
- Lista ao contrário
+# Lista ao contrário
 print(' ', carros_desbloqueados[-1], end=' ')
 print(' ', carros_desbloqueados[-2], end=' ')
-print('', carros_desbloqueados[-3], end=' ')
+print(' ', carros_desbloqueados[-3], end=' ')
 print(' ', carros_desbloqueados[-4], end=' ')
-print(' ', carros_desbloqueados[-5], end=' ')
-print(' ', carros_desbloqueados[-6], end=' ')
+print('')
 
-Adiciona um elemento no fim da lista
+# Lista ao contrário (em forma de loop)
+for i in range(-1, -5, -1):  # Ajustar para -5
+    print(' ', carros_desbloqueados[i], end=' ')
+print('')
+
+# Adiciona um elemento no fim da lista
 carros_desbloqueados.append('Camaro')
 print(carros_desbloqueados)
 
 a = ['1', '2', '3']
 b = ['4', '5', '6']
+print('')
 
 # Realiza a união das listas
 a.extend(b)
 a.extend(carros_bloqueados)
 print(a)
 
-# Loop para interar sobre índices de -1 a -6 (inclusive) em ordem decrescente
-# for i in range(-1, -7, -1):
-#    print(carros_bloqueados)
+# Lista: Uma coleção (ordenada) de elementos, acessíveis por índices.

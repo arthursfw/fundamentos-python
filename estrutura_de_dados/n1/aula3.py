@@ -1,5 +1,6 @@
-# 08/08/24
-#Expressões Aritmetícas
+#   08/08/24
+#   Arthur Meneses
+#   Expressões Aritmetícas
 
 soma_dos_termos = 8 + 4 + 2
 print(soma_dos_termos)

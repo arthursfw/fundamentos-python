@@ -1,5 +1,6 @@
-# 08/0824
-# Tipo de dados
+#   08/08/24
+#   Arthur Meneses
+#   Tipo de dados
 
 
 #Tipo inteiro
