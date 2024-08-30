@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f4f3; /* Cor de fundo mais clara e suave */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.card {
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50; /* Azul-escuro para o título */
+}
+
+.label-float input {
+  width: 100%;
+  padding: 10px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #4caf50; /* Verde para inputs */
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+}
+
+.label-float {
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus {
+  border-bottom: 2px solid #388e3c; /* Tom mais escuro de verde para foco */
+}
+
+.label-float label {
+  color: #2c3e50;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label {
+  font-size: 13px;
+  margin-top: 0;
+  color: #388e3c;
+}
+
+button {
+  background-color: #4caf50; /* Verde principal */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+button:hover {
+  background-color: #388e3c; /* Tom mais escuro ao passar o mouse */
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+p {
+  color: #2c3e50;
+  font-size: 14px;
+  text-align: center;
+}
+
+a {
+  color: #4caf50;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color .3s ease;
+}
+
+a:hover {
+  color: #388e3c;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #4caf50;
+}
+
+#msgError {
+  text-align: center;
+  color: #d32f2f; /* Vermelho para mensagens de erro */
+  background-color: #ffebee;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+#msgSuccess {
+  text-align: center;
+  color: #388e3c; /* Verde para mensagens de sucesso */
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
