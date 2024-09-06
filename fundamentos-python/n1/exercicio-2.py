@@ -1,4 +1,4 @@
-# 29/08/24
+# 05/09/24
 # Arthur Meneses
 # Exercício sobre Listas em Python
 
