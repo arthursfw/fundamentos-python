@@ -14,9 +14,9 @@ print('minha altura é ', minha_altura)
 print('esse dado é do tipo: ' , (type(minha_altura)))
 
 #Tipo booleano
-tenho_aids = True
-print('o que eu tenho? ', tenho_aids)
-print('esse dado é do tipo: ' ,(type(tenho_aids)))
+certa_resposta = True
+print('certo ou errado? ', certa_resposta)
+print('esse dado é do tipo: ' ,(type(certa_resposta)))
 
 
 #Tipo String
